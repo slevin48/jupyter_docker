@@ -6,7 +6,7 @@
 
 Jupyter is a tool for running interactive notebooks; basically add Python with Markdown and you've got Jupyter. if you haven't used it before, I recommend you do. 
 
-In this post, I'm going to show you how to deploy a Jupyter Notebook server on Heroku using Docker. 
+In this post, I'm going to show you how to deploy a Jupyter Notebook server on [Heroku using Docker](https://devcenter.heroku.com/articles/container-registry-and-runtime). 
 
 ## The big caveat
 Jupyter has the ability to create new notebooks and they will 100% save on your deployed docker-based Jupyter server... but they will **disappear** as soon as you deploy a new version. That's because containers, by their very nature, are ephemeral by default. 
